@@ -8,3 +8,6 @@ from django.http import HttpResponse
 
 def raissa(request):
     return render(request, 'raissa.html')
+
+def evlyn(request):
+    return render(request, 'evlyn.html')
